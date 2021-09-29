@@ -1,0 +1,147 @@
+/* Reset Browser */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: aliceblue;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body, html{
+    justify-content: center;
+}
+
+/*      Interface     */
+#container{
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1eac99+0,021e4c+100 */
+    background: -webkit-linear-gradient(top,  rgba(30,172,153,1) 0%,rgba(2,30,76,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    width: 100%;
+    height: 100%;
+    padding: 3.7em;
+    display: flex;
+}
+
+main{
+    padding: 2.6em;
+    width: 700px;
+    background-color: rgba(0, 0, 0, 0.932);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 4%;
+    box-shadow: 1px 1px 9px #c3c3c3, 1px -1px 9px #c3c3c3, -1px -1px 8px #c4c4c4;
+}
+
+/*   Header   */
+header{
+    border-bottom: 6px solid rgba(30,172,153,1);
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 12px;
+    margin-bottom: 1.2em;
+}
+
+header h1{
+    font-size: 2.4em;
+    padding: 6px;
+    font-family: oxygen;
+}
+
+header p{
+    color: #0E5D6E;
+    font-weight: bolder;
+    font-size: 1.3em;
+    font-family: Arial;
+}
+/*   Formulario  */
+fieldset{
+    border: 0;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+input, selec, textarea, button{
+    border-radius: 10px;
+}
+
+.grupo-info-user{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+    margin: 0.3em;
+}
+
+.grupo-info-user label{
+    font-size: 1.3em;
+}.grupo-info-user input{
+    margin: 1em;
+}
+
+.grupo-info-dev{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+    margin: 1em;
+
+}
+
+.grupo-info-dev label{
+    font-size: 1.3em;
+} .grupo-info-dev input{
+    margin: 1em;
+}
+
+.campo-dev{
+    margin-bottom: 1.2em;
+
+}
+
+form select, form select option{
+    color: black;
+    font-size: 15px;
+}
+
+form textarea{
+    color: #f7f7f7;
+    background-color: #0E5D6E;
+    margin-top: 12px;
+}
+
+
+.campo-btn button{
+    padding: 1.2em;
+    color: black;
+    font-family: arial;
+    font-size: 18px;
+    font-weight: bolder;
+}.campo-btn button[type="submit"]{
+    margin-right: 5.8em;
+}
+
+.campo-btn button:hover{
+    background-color: black;
+    color: #6a0eff;
+}
+
+label strong{
+    color:#6a0eff;
+}
+.campo-tecnologia label{
+    color: #1eac99;
+}
+
+form input[type="text"], form input[type="email"], form select, form textarea{
+    padding: 0.8em;
+} 
+
