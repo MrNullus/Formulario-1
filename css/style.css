@@ -7,9 +7,6 @@
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-body, html{
-    justify-content: center;
-}
 
 /*      Interface     */
 #container{
@@ -19,10 +16,13 @@ body, html{
     height: 100%;
     padding: 3.7em;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 main{
     padding: 2.6em;
+    padding-bottom: 2em;
     width: 700px;
     background-color: rgba(0, 0, 0, 0.932);
     margin: 0 auto;
@@ -57,7 +57,7 @@ header p{
     font-size: 1.3em;
     font-family: Arial;
 }
-/*   Formulario  */
+/*    Formulario    */
 fieldset{
     border: 0;
 }
@@ -73,9 +73,10 @@ input, selec, textarea, button{
     border-radius: 10px;
 }
 
+/*  Grupo Info User */
 .grupo-info-user{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex: 1;
     align-items: center;
     margin: 0.3em;
@@ -87,6 +88,7 @@ input, selec, textarea, button{
     margin: 1em;
 }
 
+/*  Grupo Info Dev  */
 .grupo-info-dev{
     display: flex;
     flex-direction: column;
@@ -115,11 +117,18 @@ form select, form select option{
 form textarea{
     color: #f7f7f7;
     background-color: #0E5D6E;
-    margin-top: 12px;
+    margin-top: 12px;   
+    width: 98%;    
 }
 
-
-.campo-btn button{
+.campo-btn{
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    flex-direction:row;
+    align-items: center;
+    justify-content:center;
+}.campo-btn button{
     padding: 1.2em;
     color: black;
     font-family: arial;
@@ -127,9 +136,7 @@ form textarea{
     font-weight: bolder;
 }.campo-btn button[type="submit"]{
     margin-right: 5.8em;
-}
-
-.campo-btn button:hover{
+}.campo-btn button:hover{
     background-color: black;
     color: #6a0eff;
 }
@@ -137,9 +144,17 @@ form textarea{
 label strong{
     color:#6a0eff;
 }
-.campo-tecnologia label{
+.campo-tecnologia label, .campo-area label{
     color: #1eac99;
 }
+.campo-tecnologia div{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content:center;
+    flex-wrap: wrap;
+
+}   
 
 form input[type="text"], form input[type="email"], form select, form textarea{
     padding: 0.8em;
