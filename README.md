@@ -1,2 +1,2 @@
-# Formulario 1 feito em HTML e CSS
-## _Formulario feito apenas em HTML e CSS basico_
+# Formulario 1 feito em HTML5 e CSS3
+## _Formulario basico feito apenas em HTML5 e CSS3_
